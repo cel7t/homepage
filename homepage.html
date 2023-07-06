@@ -61,6 +61,18 @@
         background-color: #202020;
         height: 23px;
     }
+    .row-icon {
+      all: unset;
+      padding: 10px;
+      border-radius: 200px;
+      box-shadow:  5px 5px 10px #181818, 
+                   -5px -5px 5px #282828;
+      font-size: 30px;
+      margin: 20px;
+      height: 40px;
+      width: 40px;
+      color: #fefefe;
+      }
   </style>
   <script>
     const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday",
@@ -144,6 +156,11 @@
         <img src="res/search.svg" id="glass-svg"></img>
       </button>
     </form>
+    <div class="row" style="margin-top: 30px">
+      <a href="https://emacs.ch"><img class="row-icon" src="res/mastodon.svg"></img></a>
+      <a href="https://discord.com/channels/@me"><img class="row-icon" src="res/discord.svg"></img></a>
+      <a href="https://youtube.com"><img class="row-icon" src="res/youtube.svg"></img></a>
+    </div>
   </div>
 </body>
 <script>
