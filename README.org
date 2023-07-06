@@ -1,0 +1,7 @@
+#+TITLE:My Homepage
+[[./res/HTML.png]]
+* Credits
+- float.gif : [[https://www.deviantart.com/dav-19/art/Pixel-Yui-326815301][dav-19]]
+- font: Overpass
+- search: LibreX (https://search.zeroish.xyz)
+- weather: [[https://wttr.in][wttr.in]]
