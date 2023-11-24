@@ -3,6 +3,6 @@
 * Credits
 - float.gif : [[https://www.deviantart.com/dav-19/art/Pixel-Yui-326815301][dav-19]]
 - font: Overpass
-- search: LibreX (https://search.zeroish.xyz)
+- search: SearXNG (https://openxng.com)
 - weather: [[https://wttr.in][wttr.in]]
 - youtube, mastodon and discord icon: fontawesome

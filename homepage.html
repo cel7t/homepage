@@ -72,6 +72,31 @@
       height: 40px;
       width: 40px;
       color: #fefefe;
+      transition: box-shadow 0.3s ease-in-out;
+      }
+    .row-icon:hover {
+      all: unset;
+      padding: 10px;
+      border-radius: 200px;
+      box-shadow:  3px 3px 5px #181818, 
+                   -3px -3px 3px #282828;
+      font-size: 30px;
+      margin: 20px;
+      height: 40px;
+      width: 40px;
+      color: #fefefe;
+      }
+    .row-icon:active {
+      all: unset;
+      padding: 10px;
+      border-radius: 200px;
+      box-shadow:  -5px -5px 5px #181818, 
+                   5px 5px 5px #282828;
+      font-size: 30px;
+      margin: 20px;
+      height: 40px;
+      width: 40px;
+      color: #fefefe;
       }
   </style>
   <script>
@@ -166,7 +191,7 @@
 <script>
   const searchForm = document.getElementById("searchbox");
   const searchQuery = document.getElementById("query");
-  const searchEngine = "https://search.zeroish.xyz/search.php?q="
+  const searchEngine = "https://opnxng.com/search?q="
   function searchFun(event) {
       event.preventDefault();
       const url = searchEngine + searchQuery.value;
